@@ -2,8 +2,8 @@
 import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+// import "./assets/img/rigo-baby.jpg";
+// import "./assets/img/4geeks.ico";
 
 let who = ["The dog", "My grandma", "The mailman", "My bird", "Bobby"];
 let action = ["ate", "peed", "crushed", "broke"];
@@ -29,7 +29,7 @@ function getRandom(anyArray) {
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
-  document.body.innerHTML =
+  document.querySelector("#excuse").innerHTML =
     getRandom(who) +
     " " +
     getRandom(action) +

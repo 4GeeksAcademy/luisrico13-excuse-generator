@@ -3,19 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <title>Hello Rigo with Vanilla.js</title>
   </head>
   <body>
-    <p id="excuse">
-      Mi perro se comio mi telefono
-    </p>
+    <div
+      class="container d-flex justify-content-center align-items-center"
+      style="height: 100px;"
+    >
+      <div class="row">
+        <div id="excuse" class="col-sm">
+          <h1>Mi perro se comio la comida</h1>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/app.js"></script>
   </body>
 </html>
