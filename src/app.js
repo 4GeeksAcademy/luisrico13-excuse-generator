@@ -20,7 +20,7 @@ function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 function getRandom(anyArray) {
-  let max = 6;
+  let max = anyArray.length;
   let min = 0;
   let random = getRandomNumber(min, max);
   return anyArray[random];
